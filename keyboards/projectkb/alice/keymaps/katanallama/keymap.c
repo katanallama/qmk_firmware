@@ -1,3 +1,7 @@
+/*
+ * Flash:
+ * nix-shell --run 'qmk flash -kb projectkb/alice -km katanallama'
+ */
 #include QMK_KEYBOARD_H
 
 #define LT1_SPC LT(1, KC_SPC)
@@ -39,4 +43,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
               _______,          _______, _______, _______,                            _______,          _______,          _______
   ),
 };
-
